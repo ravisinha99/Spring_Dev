@@ -28,6 +28,11 @@ public class FunRestController {
         return "Toady is my good day for restart";
     }
 
+    @GetMapping("/health")
+    public String Healthcheck()
 
+    {
+        return "health is up";
+    }
 
 }
